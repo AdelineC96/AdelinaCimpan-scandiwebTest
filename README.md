@@ -1,3 +1,6 @@
+<img alt="Demo Store Screenshot" src="https://i.imgur.com/qX5DAlV.jpeg">
+
+
 # Project description
 
 This project is a demo for an online shop.
