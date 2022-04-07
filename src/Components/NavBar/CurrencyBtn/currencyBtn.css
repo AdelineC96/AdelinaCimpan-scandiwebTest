@@ -1,0 +1,52 @@
+.currency-button{
+  position:relative;
+  font-family: Raleway;
+  font-weight:500;
+  font-size:20px;
+  margin-right:20px;
+  line-height: 160%;
+  border:none;
+  background-color: #FFF;
+  cursor: pointer;
+  transition:all 250ms;
+}
+
+.currency-button:hover{
+  transform:scalde(1.06)
+}
+
+.currency-options{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  background-color: #FFF;
+  z-index:10;
+  box-shadow:0px 4px 35px rgba(168,172,176,0.19);
+}
+
+.options-button{
+  padding:20px 0;
+  font-family:Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height:160%;
+  border:none;
+  background-color: #FFF;
+  cursor:pointer;
+  transition:  all 250ms;
+}
+
+.options-button:hover{
+  color: #ffffff;
+  background-color: #5ece7b;
+
+}
+
+
+.down{
+  width:10px;
+  margin-bottom:0px;
+  height:10px;
+}

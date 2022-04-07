@@ -1,0 +1,15 @@
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+  }
+  .total-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+  }
+  

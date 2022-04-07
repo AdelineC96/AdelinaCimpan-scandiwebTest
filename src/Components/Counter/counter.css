@@ -1,0 +1,30 @@
+.counter{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1d1f22;}
+
+
+    .button{ width: 24px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        height: 24px;
+        box-sizing: border-box;
+        background: none;
+        border: 1px solid #1d1f22;
+      }
+
+.button:active{  transform: scale(0.95);
+}
+
+.value{
+    font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+}

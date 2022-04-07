@@ -1,0 +1,160 @@
+.cart-overlay{
+    position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 150rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(57, 55, 72, 0.22);
+}
+
+.modal-overlay{
+  position: absolute;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  width: 350px;
+  padding: 8px 16px 20px;
+  top: 0;
+  max-height: 540px;
+  right: 101px;
+}
+
+
+.cart-title{
+    font-family: Raleway;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+  margin-bottom: 23px;
+}
+
+.total-items{
+    font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1d1f22;
+}
+
+
+.mini-card{
+  display: flex;
+  justify-content: space-between;
+  height: 187px;
+  color: #1d1f22;
+  margin-bottom: 20px;
+}
+
+.left-side{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-brand{
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+.item-name{
+    font-family: Raleway;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top:0px;
+}
+
+.item-price{
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  margin-top: 0;
+}
+
+.cart-attributes{
+    display: flex;
+}
+
+.item-attributes{
+  margin-right: 10px;
+  width: 24px;
+  height:24px;
+  margin-top:0px;
+  padding: 3px;
+  height: 24px;
+  font-family: Source Sans Pro;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  border: 1px solid #1d1f22;
+}
+
+.right-side{
+    display: flex;
+}
+
+.cart-image{
+    display: block;
+    width: 105px;
+    height: 137px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+
+.cart-options{
+    position: sticky;
+  overflow: hidden;
+  bottom: -20px;
+  background-color: #fff;
+}
+
+.modal-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.button-link{
+    font-family: Raleway;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  width: 140px;
+  height: 43px;
+  color: #1d1f22;
+  background-color: #ffffff;
+  border: 1px solid #1d1f22;
+  cursor: pointer;
+}
+
+.button-link:active{
+    transform: scale(0.95);
+
+}
+
+.check-out{
+    width: 140px;
+  height: 43px;
+  background: #5ece7b;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.check-out:active{
+    transform: scale(0.95);
+
+}
+
+.hidden{display:none}
