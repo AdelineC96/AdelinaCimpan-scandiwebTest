@@ -11,6 +11,10 @@ The project also has a Cart Page where you can see all the products that have be
 
 Make sure you start the demo endpoint!
 
+You can find the endpoint here , together with the instructions:
+[GraphQL endpoint-Scandiweb](https://github.com/AdelineC96/AdelinaCimpan-ScandiWebEndpoint)
+
+
 Then, in the project directory, you can run:
 
 ### `yarn install`
