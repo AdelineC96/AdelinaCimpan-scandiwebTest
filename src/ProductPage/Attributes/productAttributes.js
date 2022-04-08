@@ -35,18 +35,12 @@ import './productAttributes.css'
 
 
 
-         async componentDidUpdate(prevState){
+          componentDidUpdate(){
        const{color,size,capacity,yes,no,isSubmitted}= this.state;
-          /*console.log(isSubmitted)*/
-        /*if(this.mounted&&this.state.isSubmitted){
-          const changeAtr=  this.props.activeAtr();
-          changeAtr([color,size,capacity])
-          this.setState({isSubmitted:false})
-
-        }*/
+    
 
         if(isSubmitted)
-        {        const changeAtr= await this.props.activeAtr;
+        {        const changeAtr=  this.props.activeAtr;
 
           changeAtr([color,size,capacity,yes,no])
           this.setState({isSubmitted:false})
